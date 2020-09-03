@@ -587,7 +587,7 @@ body {
             justify-content: center;
     margin: 0 auto; }
     .promo .promo-content h1 {
-      font-size: 60px;
+      font-size: 40px;
       text-align: center;
       font-weight: bold;
       line-height: 1.3;
@@ -664,6 +664,10 @@ body {
       transition: all 0.3s ease; }
   .promo .promo-slider {
     display: none; }
+
+@media all and (min-width: 576px) {
+  .promo .promo-content h1 {
+    font-size: 60px; } }
 
 @media all and (min-width: 768px) {
   .promo .promo-content {
